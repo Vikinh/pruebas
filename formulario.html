@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscripción</title>
+</head>
+<body>
+    <table border="0" cellpadding="1" cellspacing="1" align="center">
+    <form action="recibido.php" method="post">
+        <tr>
+            <td>Usuario</td> <td><input type="text" name="usuario"></td>
+        </tr>
+        <tr>
+            <td>Email</td> <td><input type="email" name="correo"></td>
+        </tr>
+        <tr>
+            <td>Fecha de nacimiento</td> <td><input type="date" name="fecha"></td>
+        </tr>
+        <tr>
+            <td>Teléfono</td> <td>&nbsp;(<input type="number" name="prefijo">)&nbsp;<input type="number" name="telefono"></td>
+        </tr>
+        <tr>
+            <td>¿Es cliente?</td><td>Si<input type="radio" name="cliente" value="si" checked> No<input type="radio" name="cliente" value="no"></td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Enviar"></td> <td>&nbsp;</td>
+        </tr>
+    </form>
+    </table>
+</body>
+</html>
